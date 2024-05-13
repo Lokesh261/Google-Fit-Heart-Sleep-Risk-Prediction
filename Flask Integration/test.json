@@ -1,0 +1,578 @@
+//This file contains examples of the data that the API responds with 
+
+// Heart Rate data
+{
+  "bucket": [
+    {
+      "startTimeMillis": "1714623435723",
+      "endTimeMillis": "1714709835723",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714642080000000000",
+              "endTimeNanos": "1714642080000000000",
+              "dataTypeName": "com.google.heart_rate.summary",
+              "originDataSourceId": "raw:com.google.heart_rate.bpm:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 78, "mapVal": [] },
+                { "fpVal": 78, "mapVal": [] },
+                { "fpVal": 78, "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714709835723",
+      "endTimeMillis": "1714796235723",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714726740000000000",
+              "endTimeNanos": "1714726740000000000",
+              "dataTypeName": "com.google.heart_rate.summary",
+              "originDataSourceId": "raw:com.google.heart_rate.bpm:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 73, "mapVal": [] },
+                { "fpVal": 73, "mapVal": [] },
+                { "fpVal": 73, "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714796235723",
+      "endTimeMillis": "1714882635723",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714813140000000000",
+              "endTimeNanos": "1714813140000000000",
+              "dataTypeName": "com.google.heart_rate.summary",
+              "originDataSourceId": "raw:com.google.heart_rate.bpm:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 78, "mapVal": [] },
+                { "fpVal": 78, "mapVal": [] },
+                { "fpVal": 78, "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714882635723",
+      "endTimeMillis": "1714969035723",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714899600000000000",
+              "endTimeNanos": "1714899600000000000",
+              "dataTypeName": "com.google.heart_rate.summary",
+              "originDataSourceId": "raw:com.google.heart_rate.bpm:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 84, "mapVal": [] },
+                { "fpVal": 84, "mapVal": [] },
+                { "fpVal": 84, "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714969035723",
+      "endTimeMillis": "1715055435723",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714987620000000000",
+              "endTimeNanos": "1714987680000000000",
+              "dataTypeName": "com.google.heart_rate.summary",
+              "originDataSourceId": "raw:com.google.heart_rate.bpm:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 79.5, "mapVal": [] },
+                { "fpVal": 82, "mapVal": [] },
+                { "fpVal": 77, "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1715055435723",
+      "endTimeMillis": "1715141835723",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1715074080000000000",
+              "endTimeNanos": "1715074080000000000",
+              "dataTypeName": "com.google.heart_rate.summary",
+              "originDataSourceId": "raw:com.google.heart_rate.bpm:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 84, "mapVal": [] },
+                { "fpVal": 84, "mapVal": [] },
+                { "fpVal": 84, "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1715141835723",
+      "endTimeMillis": "1715228235723",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+          "point": []
+        }
+      ]
+    }
+  ]
+}
+
+// Steps data
+{
+  "bucket": [
+    {
+      "startTimeMillis": "1714623371340",
+      "endTimeMillis": "1714709771340",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714623371340000000",
+              "endTimeNanos": "1714709220528828865",
+              "dataTypeName": "com.google.step_count.delta",
+              "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:23049PCD8I:e9d481a5:step_counter  Non-wakeup",
+              "value": [{ "intVal": 9646, "mapVal": [] }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714709771340",
+      "endTimeMillis": "1714796171340",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714710018279059271",
+              "endTimeNanos": "1714796056465231721",
+              "dataTypeName": "com.google.step_count.delta",
+              "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:23049PCD8I:e9d481a5:step_counter  Non-wakeup",
+              "value": [{ "intVal": 7221, "mapVal": [] }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714796171340",
+      "endTimeMillis": "1714882571340",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714796289875058996",
+              "endTimeNanos": "1714882571340000000",
+              "dataTypeName": "com.google.step_count.delta",
+              "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:23049PCD8I:e9d481a5:step_counter  Non-wakeup",
+              "value": [{ "intVal": 1839, "mapVal": [] }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714882571340",
+      "endTimeMillis": "1714968971340",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714882571340000000",
+              "endTimeNanos": "1714962308554360581",
+              "dataTypeName": "com.google.step_count.delta",
+              "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:23049PCD8I:e9d481a5:step_counter  Non-wakeup",
+              "value": [{ "intVal": 4246, "mapVal": [] }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714968971340",
+      "endTimeMillis": "1715055371340",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714982515473605441",
+              "endTimeNanos": "1715055273279290012",
+              "dataTypeName": "com.google.step_count.delta",
+              "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:23049PCD8I:e9d481a5:step_counter  Non-wakeup",
+              "value": [{ "intVal": 3249, "mapVal": [] }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1715055371340",
+      "endTimeMillis": "1715141771340",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1715055484561927821",
+              "endTimeNanos": "1715137106901757538",
+              "dataTypeName": "com.google.step_count.delta",
+              "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:23049PCD8I:e9d481a5:step_counter  Non-wakeup",
+              "value": [{ "intVal": 11002, "mapVal": [] }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1715141771340",
+      "endTimeMillis": "1715228171340",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1715158914631000000",
+              "endTimeNanos": "1715216584466508959",
+              "dataTypeName": "com.google.step_count.delta",
+              "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:23049PCD8I:e9d481a5:step_counter  Non-wakeup",
+              "value": [{ "intVal": 3442, "mapVal": [] }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+// Blood Pressure Data
+{
+  "bucket": [
+    {
+      "startTimeMillis": "1714622573829",
+      "endTimeMillis": "1714708973829",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.blood_pressure.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714640280000000000",
+              "endTimeNanos": "1714640280000000000",
+              "dataTypeName": "com.google.blood_pressure.summary",
+              "originDataSourceId": "raw:com.google.blood_pressure:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 120, "mapVal": [] },
+                { "fpVal": 120, "mapVal": [] },
+                { "fpVal": 120, "mapVal": [] },
+                { "fpVal": 81, "mapVal": [] },
+                { "fpVal": 81, "mapVal": [] },
+                { "fpVal": 81, "mapVal": [] },
+                { "mapVal": [] },
+                { "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714708973829",
+      "endTimeMillis": "1714795373829",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.blood_pressure.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714726680000000000",
+              "endTimeNanos": "1714726680000000000",
+              "dataTypeName": "com.google.blood_pressure.summary",
+              "originDataSourceId": "raw:com.google.blood_pressure:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 126, "mapVal": [] },
+                { "fpVal": 126, "mapVal": [] },
+                { "fpVal": 126, "mapVal": [] },
+                { "fpVal": 84, "mapVal": [] },
+                { "fpVal": 84, "mapVal": [] },
+                { "fpVal": 84, "mapVal": [] },
+                { "mapVal": [] },
+                { "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714795373829",
+      "endTimeMillis": "1714881773829",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.blood_pressure.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714813080000000000",
+              "endTimeNanos": "1714813080000000000",
+              "dataTypeName": "com.google.blood_pressure.summary",
+              "originDataSourceId": "raw:com.google.blood_pressure:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 123, "mapVal": [] },
+                { "fpVal": 123, "mapVal": [] },
+                { "fpVal": 123, "mapVal": [] },
+                { "fpVal": 82, "mapVal": [] },
+                { "fpVal": 82, "mapVal": [] },
+                { "fpVal": 82, "mapVal": [] },
+                { "mapVal": [] },
+                { "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714881773829",
+      "endTimeMillis": "1714968173829",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.blood_pressure.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714899540000000000",
+              "endTimeNanos": "1714899540000000000",
+              "dataTypeName": "com.google.blood_pressure.summary",
+              "originDataSourceId": "raw:com.google.blood_pressure:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 126, "mapVal": [] },
+                { "fpVal": 126, "mapVal": [] },
+                { "fpVal": 126, "mapVal": [] },
+                { "fpVal": 83, "mapVal": [] },
+                { "fpVal": 83, "mapVal": [] },
+                { "fpVal": 83, "mapVal": [] },
+                { "mapVal": [] },
+                { "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1714968173829",
+      "endTimeMillis": "1715054573829",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.blood_pressure.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1714985940000000000",
+              "endTimeNanos": "1714985940000000000",
+              "dataTypeName": "com.google.blood_pressure.summary",
+              "originDataSourceId": "raw:com.google.blood_pressure:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 128, "mapVal": [] },
+                { "fpVal": 128, "mapVal": [] },
+                { "fpVal": 128, "mapVal": [] },
+                { "fpVal": 82, "mapVal": [] },
+                { "fpVal": 82, "mapVal": [] },
+                { "fpVal": 82, "mapVal": [] },
+                { "mapVal": [] },
+                { "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1715054573829",
+      "endTimeMillis": "1715140973829",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.blood_pressure.summary:com.google.android.gms:aggregated",
+          "point": [
+            {
+              "startTimeNanos": "1715072340000000000",
+              "endTimeNanos": "1715072340000000000",
+              "dataTypeName": "com.google.blood_pressure.summary",
+              "originDataSourceId": "raw:com.google.blood_pressure:com.google.android.apps.fitness:user_input",
+              "value": [
+                { "fpVal": 124, "mapVal": [] },
+                { "fpVal": 124, "mapVal": [] },
+                { "fpVal": 124, "mapVal": [] },
+                { "fpVal": 78, "mapVal": [] },
+                { "fpVal": 78, "mapVal": [] },
+                { "fpVal": 78, "mapVal": [] },
+                { "mapVal": [] },
+                { "mapVal": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTimeMillis": "1715140973829",
+      "endTimeMillis": "1715227373829",
+      "dataset": [
+        {
+          "dataSourceId": "derived:com.google.blood_pressure.summary:com.google.android.gms:aggregated",
+          "point": []
+        }
+      ]
+    }
+  ]
+}
+
+// Sleep data
+
+{
+  "session": [
+    {
+      "id": "a8844430-ef31-4994-8835-3136af5e7273",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1711128660000",
+      "endTimeMillis": "1711155180000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "05a6b906-8900-44ae-a4de-4d9b81222d23",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1711389120000",
+      "endTimeMillis": "1711414320000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "3fc1fa18-1d8c-4260-9065-e212cfdb634a",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1711299120000",
+      "endTimeMillis": "1711331520000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "b4927378-aa09-456f-99d0-e466091bc4b7",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1710872700000",
+      "endTimeMillis": "1710896040000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "5e0e093a-bcae-4633-b88f-cd28173714e6",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1711045920000",
+      "endTimeMillis": "1711078440000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "3d504b72-6358-4be2-9ad0-16904211c3d6",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1710700080000",
+      "endTimeMillis": "1710724740000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "b7d05a37-6d2a-4684-951c-2c731d472620",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1711219920000",
+      "endTimeMillis": "1711248720000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "a3c1bda5-b236-4fc1-8d08-8dd1f9ef2c5f",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1710957240000",
+      "endTimeMillis": "1710986040000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "0e451588-db4a-49c2-bc52-cc08532747d9",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1710779760000",
+      "endTimeMillis": "1710808260000",
+      "modifiedTimeMillis": "1711452347061",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "0846eb43-0343-444b-9601-93971ce93cb5",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1711431540000",
+      "endTimeMillis": "1711501200000",
+      "modifiedTimeMillis": "1711587623500",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    },
+    {
+      "id": "b6425ddb-ec3f-431e-b11d-9d845c594392",
+      "name": "",
+      "description": "",
+      "startTimeMillis": "1711474740000",
+      "endTimeMillis": "1711501200000",
+      "modifiedTimeMillis": "1711587623500",
+      "application": { "packageName": "com.google.android.apps.fitness" },
+      "activityType": 72
+    }
+  ],
+  "deletedSession": [],
+  "nextPageToken": "XmNh6qrywyZx4PXKQjBz"
+}

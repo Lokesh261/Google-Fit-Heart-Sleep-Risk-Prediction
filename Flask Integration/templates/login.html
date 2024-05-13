@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <title>Health Monitor - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <style>
+    .gradient-background {
+      background: linear-gradient(250deg, #0d1f23, #1d1b47, #4d2696);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+    }
+
+    body{
+      overflow-x: hidden;
+      background-color: #0d1f23;
+      color:#AFb3b7;
+    }
+
+    #about{
+      display:block;
+      width:75vw;
+      font-size: 1.3125rem;
+      padding: 0.75rem;
+      margin: 1.5rem;
+    }
+
+    #loginLink{
+
+      margin: 1.5rem;
+      width:70vw;
+      opacity: 0; /* Start with 0 opacity */
+      animation: fadeInAnimation 1s ease-in forwards;
+      animation-delay: 1s;
+    }
+
+    h1{
+      margin-top:2rem;
+    }
+
+    #card-image{
+      height:45vh;
+      padding:0.75rem;
+      border-radius:20px;
+      opacity: 85%;
+    }
+
+    .link-container{
+      margin:4rem;
+    }
+
+    .container{
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    footer{
+      background: linear-gradient(100deg, #0d1f23, #1d1b47, #4d2696);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+      width:100vw;
+    }
+
+    li{
+      display:inline-block;
+      padding:3rem;
+      margin:5.5rem;
+    }
+
+
+    .link{
+      text-decoration: none;
+      color:#132e35;
+      font-weight:700;
+    }
+
+    .link:hover{
+      color:#006fff;
+    }
+
+    #glogo{
+      width:2rem;
+      height:2rem;
+      mix-blend-mode: multiply;
+      margin-left:0.5rem;
+    }
+
+    .foot{
+      text-align: center;
+    }
+
+    ul{
+      margin: 0;
+      padding: 0;
+    }
+
+    @keyframes fadeInAnimation {
+      from {
+        opacity: 0; /* Start with 0 opacity */
+      }
+      to {
+        opacity: 1; /* End with full opacity */
+      }
+    }
+
+    @keyframes fly-in {
+        0% { top: -100px; } /* Start position */
+        100% { top: 50%; } /* End position */
+    
+    }
+  </style>
+<body class="gradient-background">
+  <center>
+    <h1 class="Display-3"> Health Monitor</h1>
+
+<section id="about" class="lead">
+  Step into the realm of personalized health insights! Our web-based platform is your gateway to a proactive well-being journey. Harnessing the power of an ensemble-based model, we predict heart attack risk and sleep disorder probability, tailored to your physiology. Seamlessly integrated with Google Fit API, our site offers interactive tools to explore and analyze your health data. Whether you seek to optimize fitness routines or detect potential health concerns, our platform empowers you with actionable insights. Join us and embark on a transformative experience towards a healthier, more vibrant life, right at your fingertips.
+</section>
+    <!-- <a href='/login'><button class="button-36" >Login</button></a> -->
+
+    <div id="loginLink" class="card text-bg-dark" style="padding: 0;">
+      <img id="card-image" src="../static/background.jpg" class="card-img" alt="healthcare" style="opacity: 0.8;">
+      <div class="card-img-overlay container">
+        <p id="google" class="card-text display-6 link-container" style="margin:32px"><a class="link" ID="link" href ='/login' target="_blank">Login here using <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+          <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+        </svg></a></p>  
+        <p id="guest" class="card-text display-6 link-container" style="margin:32px"><a class="link" ID="link" href ='/homepage' target="_blank">Guest Login <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+        </svg></a></p>
+      </div>
+    </div>
+  </center>
+</body>
+
+<footer>
+  <div class="foot">
+  <ul id="made-by">
+    <li>Aditya Nooka<br>20BCE2585</li>
+    <LI>Saumya Sejal<br>20BCE2596</LI>
+    <li>Lokesh K<br>20BCE2621</li>
+
+  </ul></div>
+</footer>
+</html>
